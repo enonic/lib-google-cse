@@ -1,5 +1,5 @@
 var lib = {
-    http: require('/lib/xp/http-client')
+    http: require('/lib/xp/http-client'),
 }
 
 function required(params, name) {
@@ -25,12 +25,12 @@ exports.search = function(p){
         q:      required(p, 'query')
     }
 
-    if(isSet(p['alt']))         sp.alt = p['alt'];
-    if(isSet(p['callback']))    sp.callback = p['callback'];
-    if(isSet(p['fields']))      sp.fields = p['fields'];
-    if(isSet(p['prittyPrint'])) sp.prittyPrint = p['prittyPrint'];
-    if(isSet(p['quotaUser']))   sp.quotaUser = p['quotaUser'];
-    if(isSet(p['userIp']))      sp.userIp = p['userIp'];
+    if(isSet(p['alt']))         sp.alt          = p['alt'];
+    if(isSet(p['callback']))    sp.callback     = p['callback'];
+    if(isSet(p['fields']))      sp.fields       = p['fields'];
+    if(isSet(p['prittyPrint'])) sp.prittyPrint  = p['prittyPrint'];
+    if(isSet(p['quotaUser']))   sp.quotaUser    = p['quotaUser'];
+    if(isSet(p['userIp']))      sp.userIp       = p['userIp'];
 
     var method = isSet(p['method']) ? p['method'] : "get";
 

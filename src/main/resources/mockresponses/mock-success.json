@@ -1,0 +1,268 @@
+{
+ "kind": "customsearch#search",
+ "url": {
+  "type": "application/json",
+  "template": "https://www.googleapis.com/customsearch/v1?q={searchTerms}&num={count?}&start={startIndex?}&lr={language?}&safe={safe?}&cx={cx?}&cref={cref?}&sort={sort?}&filter={filter?}&gl={gl?}&cr={cr?}&googlehost={googleHost?}&c2coff={disableCnTwTranslation?}&hq={hq?}&hl={hl?}&siteSearch={siteSearch?}&siteSearchFilter={siteSearchFilter?}&exactTerms={exactTerms?}&excludeTerms={excludeTerms?}&linkSite={linkSite?}&orTerms={orTerms?}&relatedSite={relatedSite?}&dateRestrict={dateRestrict?}&lowRange={lowRange?}&highRange={highRange?}&searchType={searchType}&fileType={fileType?}&rights={rights?}&imgSize={imgSize?}&imgType={imgType?}&imgColorType={imgColorType?}&imgDominantColor={imgDominantColor?}&alt=json"
+ },
+ "queries": {
+  "request": [
+   {
+    "title": "Google Custom Search - contenttype",
+    "totalResults": "53",
+    "searchTerms": "contenttype",
+    "count": 10,
+    "startIndex": 1,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "005159542503347627744:vozmiogxtoa"
+   }
+  ],
+  "nextPage": [
+   {
+    "title": "Google Custom Search - contenttype",
+    "totalResults": "53",
+    "searchTerms": "contenttype",
+    "count": 10,
+    "startIndex": 11,
+    "inputEncoding": "utf8",
+    "outputEncoding": "utf8",
+    "safe": "off",
+    "cx": "005159542503347627744:vozmiogxtoa"
+   }
+  ]
+ },
+ "context": {
+  "title": "Xp.readthedocs.io"
+ },
+ "searchInformation": {
+  "searchTime": 0.175504,
+  "formattedSearchTime": "0.18",
+  "totalResults": "53",
+  "formattedTotalResults": "53"
+ },
+ "items": [
+  {
+   "kind": "customsearch#result",
+   "title": "Adding content — Enonic XP 5.3 documentation",
+   "htmlTitle": "Adding content — Enonic XP 5.3 documentation",
+   "link": "http://xp.readthedocs.io/en/5.3/first-module/content-type/add-content.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "Once you rebuild the module, go to the content manager and select New . You \nwill see Person listed as an available content-type in the administration console.",
+   "htmlSnippet": "Once you rebuild the module, go to the content manager and select New . You \u003cbr\u003e\nwill see Person listed as an available \u003cb\u003econtent-type\u003c/b\u003e in the administration console.",
+   "cacheId": "vM4fhgpQCsQJ",
+   "formattedUrl": "xp.readthedocs.io/en/5.3/first.../content-type/add-content.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/5.3/first.../\u003cb\u003econtent-type\u003c/b\u003e/add-content.html",
+   "pagemap": {
+    "cse_thumbnail": [
+     {
+      "width": "306",
+      "height": "165",
+      "src": "https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSTMdIALY7nrrF2iwI0KXz0IAN7RTyYiLGWzPerpyotEJtDUtsOi8Wq4aA"
+     }
+    ],
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "cse_image": [
+     {
+      "src": "http://xp.readthedocs.io/en/5.3/_images/person-contenttype.png"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Content Structure — Enonic XP 5.3 documentation",
+   "htmlTitle": "Content Structure — Enonic XP 5.3 documentation",
+   "link": "http://xp.readthedocs.io/en/5.3/developer/content-domain/structure.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "When creating a content, all defined properties in the content-type are stored \nunder the content's data property. These properties will get the prefix data .",
+   "htmlSnippet": "When creating a content, all defined properties in the \u003cb\u003econtent-type\u003c/b\u003e are stored \u003cbr\u003e\nunder the content&#39;s data property. These properties will get the prefix data .",
+   "cacheId": "ALwX5_nnr2cJ",
+   "formattedUrl": "xp.readthedocs.io/en/5.3/developer/content-domain/structure.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/5.3/developer/content-domain/structure.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "create — Enonic XP 6.2 documentation",
+   "htmlTitle": "create — Enonic XP 6.2 documentation",
+   "link": "http://xp.readthedocs.io/en/6.2/reference/libraries/content/api/create.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "contentType (string): Content type to use. branch (string): Set by portal, \ndepending on context, to either “draft” or “master”. May be overridden, but this is \nnot ...",
+   "htmlSnippet": "\u003cb\u003econtentType\u003c/b\u003e (string): \u003cb\u003eContent type\u003c/b\u003e to use. branch (string): Set by portal, \u003cbr\u003e\ndepending on context, to either “draft” or “master”. May be overridden, but this is \u003cbr\u003e\nnot&nbsp;...",
+   "cacheId": "w-_qvtziFJQJ",
+   "formattedUrl": "xp.readthedocs.io/en/6.2/reference/libraries/content/.../create.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/6.2/reference/libraries/content/.../create.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "article": [
+     {
+      "articlebody": "create¶ This function creates a content. create(params) Arguments: params (object) – JSON with the parameters below. Returns:the content created as JSON. Parameters: name (string) Name of..."
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Displaying content — Enonic XP 5.3 documentation",
+   "htmlTitle": "Displaying content — Enonic XP 5.3 documentation",
+   "link": "http://xp.readthedocs.io/en/5.3/first-module/content-type/display-content.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "Now that a content-type has been defined and a content created, a new \ncomponent part is needed to display the content. But first, a person content \nshould be ...",
+   "htmlSnippet": "Now that a \u003cb\u003econtent-type\u003c/b\u003e has been defined and a content created, a new \u003cbr\u003e\ncomponent part is needed to display the content. But first, a person content \u003cbr\u003e\nshould be&nbsp;...",
+   "cacheId": "gdV57kw0nngJ",
+   "formattedUrl": "xp.readthedocs.io/en/5.3/first.../content-type/display-content.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/5.3/first.../\u003cb\u003econtent-type\u003c/b\u003e/display-content.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "ID Providers — Enonic XP 6.6.0 documentation",
+   "htmlTitle": "ID Providers — Enonic XP 6.6.0 documentation",
+   "link": "http://xp.readthedocs.io/en/stable/developer/id-provider/index.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "validTicket ? req.params.redirect : undefined; var body = generateLoginPage(\nredirectUrl); return { contentType: 'text/html', body: body }; }; exports.logout ...",
+   "htmlSnippet": "validTicket ? req.params.redirect : undefined; var body = generateLoginPage(\u003cbr\u003e\nredirectUrl); return { \u003cb\u003econtentType\u003c/b\u003e: &#39;text/html&#39;, body: body }; }; exports.logout&nbsp;...",
+   "cacheId": "15w-tkTUQPUJ",
+   "formattedUrl": "xp.readthedocs.io/en/stable/developer/id-provider/index.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/stable/developer/id-provider/index.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "article": [
+     {
+      "articlebody": "ID Providers¶ Warning ID Providers support is experimental. An ID Provider is a pluggable authentication module, contained inside an application. Install an existing ID Provider or write your..."
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Error Handling — Enonic XP 6.6.0 documentation",
+   "htmlTitle": "Error Handling — Enonic XP 6.6.0 documentation",
+   "link": "http://xp.readthedocs.io/en/stable/developer/site/errors/",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "... var viewGeneric = resolve('error.html'); exports.handle404 = function (err) { var \nbody = thymeleaf.render(view404, {}); return { contentType: 'text/html', body: ...",
+   "htmlSnippet": "... var viewGeneric = resolve(&#39;error.html&#39;); exports.handle404 = function (err) { var \u003cbr\u003e\nbody = thymeleaf.render(view404, {}); return { \u003cb\u003econtentType\u003c/b\u003e: &#39;text/html&#39;, body:&nbsp;...",
+   "cacheId": "w9Uo6ctRNAEJ",
+   "formattedUrl": "xp.readthedocs.io/en/stable/developer/site/errors/",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/stable/developer/site/errors/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "article": [
+     {
+      "articlebody": "Error Handling¶ Enonic XP enables you to displaying nice custom error pages for your site. Create the following folder in your project src/main/resources/site/error and place an error.js within..."
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Mixins — Enonic XP 5.3 documentation",
+   "htmlTitle": "Mixins — Enonic XP 5.3 documentation",
+   "link": "http://xp.readthedocs.io/en/5.3/developer/content-domain/mixins.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "Below is an example of a simple contenttype that uses the us-address mixin. \nNotice that the name of the mixin folder is used and not the mixin's Display Name.",
+   "htmlSnippet": "Below is an example of a simple \u003cb\u003econtenttype\u003c/b\u003e that uses the us-address mixin. \u003cbr\u003e\nNotice that the name of the mixin folder is used and not the mixin&#39;s Display Name.",
+   "cacheId": "AKW250NEBQoJ",
+   "formattedUrl": "xp.readthedocs.io/en/5.3/developer/content-domain/mixins.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/5.3/developer/content-domain/mixins.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "content.create — Enonic XP 5.3 documentation",
+   "htmlTitle": "content.create — Enonic XP 5.3 documentation",
+   "link": "http://xp.readthedocs.io/en/5.3/reference/script-commands/content/create.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "var result = execute('content.create', { name: 'mycontent', parentPath: '/a/b', \ndisplayName: 'My Content', draft: true, contentType: 'system:unstructured', data: { \na: ...",
+   "htmlSnippet": "var result = execute(&#39;content.create&#39;, { name: &#39;mycontent&#39;, parentPath: &#39;/a/b&#39;, \u003cbr\u003e\ndisplayName: &#39;My Content&#39;, draft: true, \u003cb\u003econtentType\u003c/b\u003e: &#39;system:unstructured&#39;, data: { \u003cbr\u003e\na:&nbsp;...",
+   "cacheId": "_6asWit54FgJ",
+   "formattedUrl": "xp.readthedocs.io/en/5.3/reference/script-commands/.../create.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/5.3/reference/script-commands/.../create.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Response — Enonic XP 5.3 documentation",
+   "htmlTitle": "Response — Enonic XP 5.3 documentation",
+   "link": "http://xp.readthedocs.io/en/5.3/developer/modules/controller/response.html",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "status: HTTP response status code. Default to 200 . body: HTTP message body of \nthe response that can either be a string or a JavaScript object. contentType ...",
+   "htmlSnippet": "status: HTTP response status code. Default to 200 . body: HTTP message body of \u003cbr\u003e\nthe response that can either be a string or a JavaScript object. \u003cb\u003econtentType\u003c/b\u003e&nbsp;...",
+   "cacheId": "XcqGAf2KUTEJ",
+   "formattedUrl": "xp.readthedocs.io/en/5.3/developer/modules/.../response.html",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/5.3/developer/modules/.../response.html",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ]
+   }
+  },
+  {
+   "kind": "customsearch#result",
+   "title": "Widgets — Enonic XP 6.6.0 documentation",
+   "htmlTitle": "Widgets — Enonic XP 6.6.0 documentation",
+   "link": "http://xp.readthedocs.io/en/stable/developer/admin/widgets/",
+   "displayLink": "xp.readthedocs.io",
+   "snippet": "Widgets are user interface components that can be used to extend various Admin \nTools. Currently, the only available extension point for widgets are detail ...",
+   "htmlSnippet": "Widgets are user interface components that can be used to extend various Admin \u003cbr\u003e\nTools. Currently, the only available extension point for widgets are detail&nbsp;...",
+   "cacheId": "jSSY5ahCJGAJ",
+   "formattedUrl": "xp.readthedocs.io/en/stable/developer/admin/widgets/",
+   "htmlFormattedUrl": "xp.readthedocs.io/en/stable/developer/admin/widgets/",
+   "pagemap": {
+    "metatags": [
+     {
+      "viewport": "width=device-width, initial-scale=1.0"
+     }
+    ],
+    "article": [
+     {
+      "articlebody": "Widgets¶ Warning Widget support is experimental. Widgets are user interface components that can be used to extend various Admin Tools. Currently, the only available extension point for widgets..."
+     }
+    ]
+   }
+  }
+ ]
+}

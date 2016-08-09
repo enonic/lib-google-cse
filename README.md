@@ -34,9 +34,9 @@ After this, add the following dependency (where ``<version>`` is the actual vers
 
 ### API-key and engine id
 
-To be able to get search result from Google, you need an api-key and a search engine id from Google. The api-key is obtained by setting up an credention at Googles [API manager](https://console.developers.google.com), and enabling the "Custome search API".
+To be able to get search result from Google, you need an api-key and a search engine id from Google. The api-key is obtained by setting up an credention at Googles [API manager](https://console.developers.google.com), and enabling the "custom search API".
 
-Get the search engine id by register an engine at Googles [custome search engine console](https://cse.google.com).
+Get the search engine id by register an engine at Googles [custom search engine console](https://cse.google.com).
 
 ![Google Api manager as of 2. august 2016](doc/images/google-api-manager-4aug2016.png)
 

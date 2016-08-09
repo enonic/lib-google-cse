@@ -57,9 +57,9 @@ Get the search engine id by register an engine at Googles [custome search engine
 
 | Parameter | Required | Meaning | Notes |
 | --------- | -------- | ------- | ----- |
-| googleApiKey | √ | | |
-| googleCustomSearchEngineId | √ | | |
-| q | √ | The search query | |
+| googleApiKey | Yes | | |
+| googleCustomSearchEngineId | Yes | | |
+| q | Yes | The search query | |
 | alt | | Data format for the response. | Valid values: json, atom. Default value: json |
 | callback | | Callback function. | Name of the JavaScript callback function that handles the response. Used in JavaScript JSON-P requests. |
 | fields | | Selector specifying a subset of fields to include in the response. | |

@@ -68,3 +68,17 @@ Get the search engine id by registering an engine at Googles [custom search engi
 | userIp | | IP address of the end user for whom the API call is being made. | |
 
 [More information about the parameters](https://developers.google.com/custom-search/json-api/v1/using_rest) at Googles custom search doc.
+
+
+### Mock response
+
+By default google cse gives you a quota for 100 search per day. This limit is often reached fast when you're developing and testing. To save the quota for real searches, you can use the mock response. Simply change the lib required by the controller to get mockcse.js instead. The response is mimicking the result of a google cse in the enonic xp docs. At the moment, only a succesful reponse is mocked.
+
+
+var libGce = require('/lib/mockcse');
+
+libGce.search({
+    googleApiKey: "AIzaSyAwerR12fozZQ-rU__sfeFvN_jt21sdf312312as"
+    googleCustomSearchEngineId: "02515953347627444:trertmiogwersdf"
+    q: "enonic xp"
+    })

@@ -21,8 +21,8 @@ exports.search = function(p){
     var url = "https://www.googleapis.com/customsearch/v1"
     var sp = {
         key:    required(p, 'googleApiKey'),
-        cx:     required(p, 'gssSearchEngineId'),
-        q:      required(p, 'query')
+        cx:     required(p, 'googleCustomSearchEngineId'),
+        q:      required(p, 'q')
     }
 
     if(isSet(p['alt']))         sp.alt          = p['alt'];
@@ -31,6 +31,7 @@ exports.search = function(p){
     if(isSet(p['prittyPrint'])) sp.prittyPrint  = p['prittyPrint'];
     if(isSet(p['quotaUser']))   sp.quotaUser    = p['quotaUser'];
     if(isSet(p['userIp']))      sp.userIp       = p['userIp'];
+    if(isSet(p['startIndex']))  sp.start        = p['startIndex'];
 
     var method = isSet(p['method']) ? p['method'] : "get";
 

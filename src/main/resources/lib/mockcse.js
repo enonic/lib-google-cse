@@ -20,6 +20,12 @@ function isSet(v) {
 
 exports.search = function(p){
 
+    var sp = {
+        key:    required(p, 'googleApiKey'),
+        cx:     required(p, 'googleCustomSearchEngineId'),
+        q:      required(p, 'q')
+    }
+
     var mockResponse = getMockResponse();
     return mockResponse;
 

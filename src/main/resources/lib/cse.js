@@ -1,5 +1,5 @@
 var lib = {
-    http: require('/lib/xp/http-client'),
+    http: require('/lib/xp/http-client')
 };
 
 function required(params, name) {
@@ -23,7 +23,7 @@ exports.search = function(p){
         key:    required(p, 'googleApiKey'),
         cx:     required(p, 'googleCustomSearchEngineId'),
         q:      required(p, 'q')
-    }
+    };
 
     if(isSet(p['alt']))         sp.alt          = p['alt'];
     if(isSet(p['callback']))    sp.callback     = p['callback'];
@@ -35,11 +35,9 @@ exports.search = function(p){
 
     var method = isSet(p['method']) ? p['method'] : "get";
 
-    var r = lib.http.request({
+    return lib.http.request({
         url: url,
         params: sp,
         method: method
     });
-
-    return r;
 };

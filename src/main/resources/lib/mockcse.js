@@ -2,7 +2,7 @@ var lib = {
     http: require('/lib/xp/http-client'),
     gu: require('gss-util'),
     io: require('/lib/xp/io')
-}
+};
 
 function required(params, name) {
     var value = params[name];
@@ -13,26 +13,19 @@ function required(params, name) {
     return value;
 }
 
-function isSet(v) {
-    return v !== null && typeof v !== 'undefined';
-};
-
-
 exports.search = function(p){
 
-    var sp = {
+    /*var sp = {
         key:    required(p, 'googleApiKey'),
         cx:     required(p, 'googleCustomSearchEngineId'),
         q:      required(p, 'q')
-    }
+    };*/
 
-    var mockResponse = getMockResponse();
-    return mockResponse;
-
-}
+    return getMockResponse();
+};
 
 function getMockResponse(){
-    var response = {
+    return {
         "status": 200,
         "message": "OK",
         body: readMockFile(),
@@ -52,15 +45,11 @@ function getMockResponse(){
             "X-Frame-Options": "SAMEORIGIN",
             "X-XSS-Protection": "1; mode=block"
         }
-    }
-
-    return response;
+    };
 }
 
 function readMockFile(){
     var resource = lib.io.getResource('/mockresponses/mock-success.json');
     var stream = resource.getStream();
-    var text = lib.io.readText(stream);
-    return text;
-
+    return lib.io.readText(stream);
 }

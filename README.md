@@ -1,4 +1,4 @@
-# Google Custom Search engine lib
+# Google Custom Search Engine lib
 
 
 
@@ -12,13 +12,13 @@
 ## Usage
 
 
-### Install lib-cse
+### Install the lib
 
-Install lib-cse to the local maven repository.
+Install the google-cse lib to the local maven repository.
 
     gradle install
 
-Use the lib-cse in any project by adding it in the dependency.
+Use the google-cse lib in any project by adding it in the dependency.
 
     repositories {
         mavenLocal()
@@ -27,7 +27,7 @@ Use the lib-cse in any project by adding it in the dependency.
 After this, add the following dependency (where ``<version>`` is the actual version to use):
 
     dependencies {
-        include "com.enonic:lib-gcs:<version>"
+        include "com.enonic.lib:google-cse:<version>"
     }
 
 

@@ -9,8 +9,6 @@ buildscript {
 
     dependencies {
         classpath "com.enonic.xp:gradle-plugin:${xpVersion}"
-        classpath "com.moowork.gradle:gradle-node-plugin:0.11"
-
     }
 }
 apply plugin: 'maven'
@@ -25,8 +23,8 @@ app {
 }
 
 dependencies {
-    compile "com.enonic.lib:util:1.1.1"
     compile "com.enonic.xp:lib-io:${xpVersion}"
+    compile "com.enonic.lib:util:1.1.1"
 }
 
 repositories {
@@ -45,7 +43,7 @@ publishing {
     }
     repositories {
         maven {
-            url 'http://repo.enonic.net/artifactory/public'
+            url 'http://repo.enonic.com/artifactory/public'
         }
     }
 }

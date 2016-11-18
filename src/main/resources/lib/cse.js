@@ -1,6 +1,6 @@
 var lib = {
     http: require('/lib/xp/http-client'),
-}
+};
 
 function required(params, name) {
     var value = params[name];
@@ -13,7 +13,7 @@ function required(params, name) {
 
 function isSet(v) {
     return v !== null && typeof v !== 'undefined';
-};
+}
 
 
 exports.search = function(p){
@@ -42,4 +42,4 @@ exports.search = function(p){
     });
 
     return r;
-}
+};

@@ -24,7 +24,6 @@ app {
 
 dependencies {
     compile "com.enonic.xp:lib-io:${xpVersion}"
-    compile "com.enonic.lib:util:1.1.1"
 }
 
 repositories {

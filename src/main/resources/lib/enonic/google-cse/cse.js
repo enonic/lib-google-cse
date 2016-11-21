@@ -18,7 +18,7 @@ function isSet(v) {
 
 exports.search = function(p){
 
-    var url = "https://www.googleapis.com/customsearch/v1"
+    var url = "https://www.googleapis.com/customsearch/v1";
     var sp = {
         key:    required(p, 'googleApiKey'),
         cx:     required(p, 'googleCustomSearchEngineId'),

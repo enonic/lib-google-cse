@@ -1,6 +1,5 @@
 var lib = {
     http: require('/lib/xp/http-client'),
-    gu: require('gss-util'),
     io: require('/lib/xp/io')
 };
 
@@ -14,13 +13,6 @@ function required(params, name) {
 }
 
 exports.search = function(p){
-
-    /*var sp = {
-        key:    required(p, 'googleApiKey'),
-        cx:     required(p, 'googleCustomSearchEngineId'),
-        q:      required(p, 'q')
-    };*/
-
     return getMockResponse();
 };
 
@@ -49,7 +41,7 @@ function getMockResponse(){
 }
 
 function readMockFile(){
-    var resource = lib.io.getResource('/mockresponses/mock-success.json');
+    var resource = lib.io.getResource('/lib/enonic/google-cse/mockresponses/mock-success.json');
     var stream = resource.getStream();
     return lib.io.readText(stream);
 }

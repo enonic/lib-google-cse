@@ -1,6 +1,6 @@
 # Google Custom Search Engine lib
 
-
+https://market.enonic.com/vendors/enonic/com.enonic.lib.google.cse
 
 ## Releases and Compatibility
 

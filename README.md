@@ -7,6 +7,7 @@ https://market.enonic.com/vendors/enonic/com.enonic.lib.google.cse
 | App version | Required XP version | Download |
 | ----------- | ------------------- | -------- |
 | 1.0.0 | 6.6.0 |
+| 2.0.0 | 7.0.0 |
 
 
 ## Usage
@@ -45,7 +46,7 @@ Get the search engine id by registering an engine at Googles [custom search engi
 ### Search
 
 
-    var libGce = require('/lib/enonic/google-cse/cse');
+    var libGce = require('/lib/cse');
 
     libGce.search({
         googleApiKey: "AIzaSyAwerR12fozZQ-rU__sfeFvN_jt21sdf312312as"
@@ -75,7 +76,7 @@ Get the search engine id by registering an engine at Googles [custom search engi
 By default google cse gives you a quota for 100 search per day. This limit is often reached fast when you're developing and testing. To save the quota for real searches, you can use the mock response. Simply change the lib required by the controller to get mockcse.js instead. The response is mimicking the result of a google cse in the enonic xp docs. At the moment, only a succesful reponse is mocked.
 
 
-    var libGce = require('/lib/enonic/google-cse/mockcse');
+    var libGce = require('/lib/mockcse');
 
     libGce.search({
         googleApiKey: "AIzaSyAwerR12fozZQ-rU__sfeFvN_jt21sdf312312as"

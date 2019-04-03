@@ -1,5 +1,5 @@
 var lib = {
-    http: require('/lib/xp/http-client')
+    http: require('/lib/http-client')
 };
 
 function required(params, name) {

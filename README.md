@@ -6,8 +6,8 @@ https://market.enonic.com/vendors/enonic/com.enonic.lib.google.cse
 
 | App version | Required XP version | Download |
 | ----------- | ------------------- | -------- |
-| 1.0.0 | 6.6.0 |
 | 2.0.0 | 7.0.0 |
+| 1.0.0 | 6.6.0 |
 
 
 ## Usage
@@ -17,7 +17,7 @@ https://market.enonic.com/vendors/enonic/com.enonic.lib.google.cse
 
 Install the google-cse lib to the local maven repository.
 
-    gradle install
+    gradle publishToLocalMaven
 
 Use the google-cse lib in any project by adding it in the dependency.
 
@@ -28,7 +28,7 @@ Use the google-cse lib in any project by adding it in the dependency.
 After this, add the following dependency (where ``<version>`` is the actual version to use):
 
     dependencies {
-        include "com.enonic.lib:google-cse:<version>"
+        include "com.enonic.lib:lib-google-cse:2.0.0"
     }
 
 
